@@ -29,14 +29,20 @@ class Basic{
         System.out.println(l);
         byte b=127;
         int c=12;
+        System.out.println(c==b);
         c=b;
         b=(byte)c; // this  is giving error because byte takes 1 byte and int takes 4bytes
         // System.out.println();
         int flag=5;
+        System.out.println(b);
         while(flag>0)
         {
             System.out.println("Success");
             flag--;
         }
+        do { 
+            System.out.println("Success "+flag);
+            flag++;
+        } while (flag<6);
     }
 }
