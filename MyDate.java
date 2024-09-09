@@ -33,7 +33,7 @@ public class MyDate {
 
     public static void main(String[] args) {
         MyDate currentDate = new MyDate();
-        long elapsedTime = 1000 * 24 * 60 * 60 * 1000;
+        long elapsedTime = 1000L * 24 * 60 * 60 * 1000;
         MyDate futureDate = new MyDate(elapsedTime);
         System.out.println("Current Date: " + currentDate.getYear() + "/" + currentDate.getMonth() + "/" + currentDate.getDay());
         System.out.println("Future Date: " + futureDate.getYear() + "/" + futureDate.getMonth() + "/" + futureDate.getDay());
