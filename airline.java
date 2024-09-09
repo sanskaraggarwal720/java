@@ -20,6 +20,7 @@ public class airline {
                         System.out.println("No seat is vacant");
                     }
                 }
+                break;
             case 2:
                 for(int i=5;i<10;i++)
                 {
@@ -33,7 +34,10 @@ public class airline {
                     {
                         System.out.println("No seat is vacant");
                     }
-            }
+                }
+                break;
+            default:
+                System.out.println("Enter the correct choice");
         }
     }
 }
