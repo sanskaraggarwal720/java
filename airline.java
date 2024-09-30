@@ -38,6 +38,8 @@ public class airline {
                 break;
             default:
                 System.out.println("Enter the correct choice");
+            // inp.close();
         }
+        inp.close();
     }
 }

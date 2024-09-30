@@ -1,20 +1,3 @@
-// import java.util.Vector;
-// public class Vector {
-//     public static void main(String a[])
-//     {
-//         Vector<Integer> vector = new Vector<>(3,2);
-//         Scanner inp=new Scanner(System.in);
-//         int size;
-//         System.out.println("Enter the size ");
-//         size=inp.nextInt();
-//         for(int i=0;i<size;i++)
-//         {
-//             int element = inp.nextInt();
-//             vector.add(element);
-//         }
-//     }
-// }
-
 import java.util.Vector;
 
 public class VectorExample{
